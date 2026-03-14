@@ -64,11 +64,11 @@ export default {
   // 将此处2个地址改为自己的地址
   proxy: {
     '/wp-json': {
-      // target: 'https://www.xuanmo.xin',
+      // target: 'https://xzccs.top',
       target: 'http://localhost:5100'
     },
     '/wp-content': {
-      // target: 'https://www.xuanmo.xin'
+      // target: 'https://xzccss.top'
       target: 'http://localhost:5100'
     }
   },
